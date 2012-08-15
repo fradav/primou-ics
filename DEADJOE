@@ -1,0 +1,81 @@
+
+*** Modified files in JOE when it aborted on Wed Aug 15 17:25:44 2012
+*** JOE was aborted by signal 15
+
+*** File '.git/COMMIT_EDITMSG'
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: fradav <fradav@OscourPC.(none)>
+#
+# On branch master
+# Your branch is behind 'origin/master' by 7 commits, and can be fast-forwarded.
+#
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   Documentation/power/runtime_pm.txt
+#	modified:   Makefile
+#	modified:   arch/arm/Kconfig
+#	modified:   arch/arm/boot/compressed/Makefile
+#	modified:   arch/arm/boot/compressed/decompress.c
+#	modified:   arch/arm/kernel/armksyms.c
+#	modified:   arch/arm/lib/Makefile
+#	deleted:    arch/arm/lib/sha1.S
+#	modified:   arch/arm/mach-msm/acpuclock-7x30.c
+#	modified:   arch/arm/mach-msm/board-primou.c
+#	modified:   arch/arm/mach-msm/cpufreq.c
+#	modified:   arch/arm/mach-msm/include/mach/board.h
+#	modified:   arch/arm/mach-msm/qdsp5v2_2x/audio_amrnb_in.c
+#	modified:   arch/arm/mach-msm/qdsp5v2_2x/audio_dev_ctl.c
+#	modified:   arch/arm/mach-msm/qdsp5v2_2x/audio_pcm_in.c
+#	modified:   arch/arm/mach-msm/qdsp5v2_2x/voice.c
+#	modified:   arch/arm/mach-msm/scm.c
+#	modified:   arch/arm/mm/alignment.c
+#	modified:   arch/x86/kernel/cpu/sched.c
+#	modified:   block/Kconfig.iosched
+#	modified:   block/Makefile
+#	modified:   drivers/base/power/runtime.c
+#	modified:   drivers/cpufreq/Kconfig
+#	modified:   drivers/cpufreq/Makefile
+#	modified:   drivers/cpufreq/cpufreq.c
+#	modified:   drivers/md/dm-table.c
+#	modified:   drivers/md/dm.c
+#	modified:   drivers/misc/cable_detect_8x55.c
+#	modified:   drivers/scsi/scsi_pm.c
+#	modified:   drivers/scsi/scsi_scan.c
+#	modified:   drivers/staging/android/lowmemorykiller.c
+#	modified:   drivers/usb/host/ehci-msm.c
+#	modified:   drivers/usb/otg/msm_otg.c
+#	modified:   drivers/usb/storage/usb.c
+#	modified:   include/linux/cryptohash.h
+#	modified:   include/linux/msm_audio_7X30.h
+#	modified:   include/linux/tcp.h
+#	modified:   include/net/netfilter/xt_log.h
+#	modified:   kernel/sched.c
+#	modified:   kernel/sched_features.h
+#	modified:   kernel/sched_rt.c
+#	modified:   lib/sha1.c
+#	modified:   mm/ashmem.c
+#	modified:   mm/page-writeback.c
+#	modified:   net/ipv4/tcp_input.c
+#	modified:   net/ipv4/tcp_output.c
+#	modified:   net/netfilter/xt_qtaguid.c
+#	modified:   scripts/setlocalversion
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	CURRENT_VERSION
+#	Documentation/crc32.txt
+#	arch/arm/boot/compressed/piggy.xzkern.S
+#	arch/arm/configs/titanium-kiss-usbhost_defconfig
+#	arch/arm/configs/titanium-kiss_defconfig
+#	arch/arm/include/asm/rwsem.h
+#	block/sio-iosched.c
+#	drivers/cpufreq/cpufreq_interactive.c
+#	drivers/cpufreq/cpufreq_lionheart.c
+#	drivers/cpufreq/cpufreq_lulzactive.c
+#	drivers/cpufreq/cpufreq_smartass2.c
+#	drivers/usb/host/ehci-sysfs

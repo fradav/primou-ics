@@ -4215,7 +4215,7 @@ static int msm_hsusb_ldo_set_voltage(int mV)
 static int phy_init_seq[] = { 0x06, 0x36, 0x0C, 0x31, 0x31, 0x32, 0x1, 0x0D, 0x1, 0x10, -1 };
 static struct msm_otg_platform_data msm_otg_pdata = {
 	.phy_init_seq		= phy_init_seq,
-	.mode			= USB_PERIPHERAL,
+	.mode			= USB_OTG,
 	.otg_control		= OTG_PMIC_CONTROL,
 	.power_budget		= 750,
 	.phy_type = CI_45NM_INTEGRATED_PHY,
@@ -6436,6 +6436,9 @@ void primou_add_usb_devices(void)
 	msm_device_gadget_peripheral.dev.parent = &msm_device_otg.dev;
 	platform_device_register(&msm_device_gadget_peripheral);
 	platform_device_register(&android_usb_device);
+
+        msm_device_hsusb_host.dev.parent = &msm_device_otg.dev;
+	platform_device_register(&msm_device_hsusb_host);
 }
 
 static int __init board_serialno_setup(char *serialno)
